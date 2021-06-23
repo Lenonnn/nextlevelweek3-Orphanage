@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "name": "Orfanato Lírios do Vale",
+        "latitude": -23.5431786,
+        "longitude": -46.6291845,
+        "about": "Sobre o orfanato",
+        "instructions": "Venha nos visitar",
+        "opening_hours": "Das 08:00 até as 18:00",
+        "open_on_weekends": true
+    }
+]

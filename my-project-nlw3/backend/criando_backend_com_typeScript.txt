@@ -1,0 +1,33 @@
+Comandos para criar um projeto em TypeScript:
+
+npm init -y
+
+npm install express
+
+npm install ts-node -D
+
+
+npm install typescript -D
+
+npx tsc --init
+
+npm install ts-node-dev -D
+
+obs: instalar os @types/express
+npm i @types/express
+
+obs2: ajustar target no tsconfig :"target": "es2017",   
+
+
+Vai dentro do packjson:
+
+scripts{
+
+"dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+
+}
+
+para rodar é rodar o comando 
+
+npm run 'dev'
+

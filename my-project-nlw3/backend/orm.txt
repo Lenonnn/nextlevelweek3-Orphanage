@@ -1,0 +1,13 @@
+Configurar package.json com o script 'typeorm';
+Rodar script:
+npm run typeorm
+
+- Criar migration para definir e criar tabela:
+npx typeorm migration:create -n create_orphanages
+npx typeorm migration:create -n create_images
+
+- Para criar tabela, executar comando:
+npm run typeorm migration:run
+
+- Para excluir tabela, executar comando:
+npm run typeorm migration:revert
